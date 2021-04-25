@@ -1,0 +1,5 @@
+#!/bin/bash
+
+npm run resetDB
+node server/server.js &
+npm start
